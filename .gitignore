@@ -1,0 +1,21 @@
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+
+# Datos y modelos (pesados o con licencia propia)
+data/raw/*
+data/processed/*
+models/*
+!**/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editor y macOS
+.vscode/
+.DS_Store
+
+# Herramientas
+.pytest_cache/
+.ruff_cache/
